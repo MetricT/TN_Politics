@@ -14,7 +14,6 @@ election_data <- read_csv("tn_presidential_elections_county_level_1904_to_2016.c
 
 election_data %>% filter(County == "Davidson") %>% filter(County_Winner == TRUE)
 
-# A tibble: 29 x 8
     Year County   Party      Partisan_Lean Candidate             Votes National_Winner County_Winner
    <dbl> <chr>    <chr>      <chr>         <chr>                 <dbl> <lgl>           <lgl>        
  1  1904 Davidson Democratic Center-Left   Alton B. Parker        7735 FALSE           TRUE         
