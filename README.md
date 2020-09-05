@@ -27,6 +27,36 @@ tn_presidential_elections_county_level_1904_to_2016.csv - Presidential election 
          9  1936 Davidson Democratic Center-Left   Franklin D. Roosevelt 25530 TRUE            TRUE         
         10  1940 Davidson Democratic Center-Left   Franklin D. Roosevelt 27589 TRUE            TRUE   
 
+## Examples:
+
+Find which counties do the best job of forecasting the national winner, and how accurate they are:
+
+        election_data %>% 
+          filter(National_Winner == TRUE) %>% 
+          filter(County_Winner == TRUE) %>% 
+          select(County, National_Winner) %>% 
+          group_by(County) %>% 
+          summarize(Count = n() / 29) %>% 
+          ungroup() %>% 
+          arrange(desc(Count))
+        
+        # A tibble: 96 x 2
+           County   Count
+           <chr>    <dbl>
+         1 Lawrence 0.828
+         2 Carroll  0.793
+         3 Meigs    0.793
+         4 Anderson 0.759
+         5 Polk     0.759
+         6 Hamilton 0.724
+         7 Marion   0.724
+         8 Sullivan 0.724
+         9 Bledsoe  0.690
+        10 McNairy  0.690
+
+So the winner in Lawrence County is the national winner 82.8% of the time.
+
+
 ## Data sources
 
 * Data from 1904-1996 was taken from Wikipedia's pages on United States presidential elections in Tennessee.
