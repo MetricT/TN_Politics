@@ -1,6 +1,6 @@
 # TN_Politics
 
-This is a repo for hosting poltical data related to Tennesse politics
+This is a repo for hosting poltical data related to Tennessee politics.
 
 # Datasets:
 
@@ -8,24 +8,24 @@ tn_presidential_elections_county_level_1904_to_2016.csv - Presidential election 
 
 ## Usage:
 
-library(tidyverse)
-
-election_data <- read_csv("tn_presidential_elections_county_level_1904_to_2016.csv", col_names = TRUE, col_types = "dccccdll")
-
-election_data %>% filter(County == "Davidson") %>% filter(County_Winner == TRUE)
-
-    Year County   Party      Partisan_Lean Candidate             Votes National_Winner County_Winner
-   <dbl> <chr>    <chr>      <chr>         <chr>                 <dbl> <lgl>           <lgl>        
- 1  1904 Davidson Democratic Center-Left   Alton B. Parker        7735 FALSE           TRUE         
- 2  1908 Davidson Democratic Center-Left   William Howard Taft    8309 TRUE            TRUE         
- 3  1912 Davidson Democratic Center-Left   Woodrow Wilson         9517 TRUE            TRUE         
- 4  1916 Davidson Democratic Center-Left   Woodrow Wilson         8958 TRUE            TRUE         
- 5  1920 Davidson Democratic Center-Left   James M. Cox          13354 FALSE           TRUE         
- 6  1924 Davidson Democratic Center-Left   John W. Davis         11363 FALSE           TRUE         
- 7  1928 Davidson Republican Center-Right  Herbert Hoover        15359 TRUE            TRUE         
- 8  1932 Davidson Democratic Center-Left   Franklin D. Roosevelt 21233 TRUE            TRUE         
- 9  1936 Davidson Democratic Center-Left   Franklin D. Roosevelt 25530 TRUE            TRUE         
-10  1940 Davidson Democratic Center-Left   Franklin D. Roosevelt 27589 TRUE            TRUE   
+        library(tidyverse)
+        
+        election_data <- read_csv("tn_presidential_elections_county_level_1904_to_2016.csv", col_names = TRUE, col_types = "dccccdll")
+        
+        election_data %>% filter(County == "Davidson") %>% filter(County_Winner == TRUE)
+        
+            Year County   Party      Partisan_Lean Candidate             Votes National_Winner County_Winner
+           <dbl> <chr>    <chr>      <chr>         <chr>                 <dbl> <lgl>           <lgl>        
+         1  1904 Davidson Democratic Center-Left   Alton B. Parker        7735 FALSE           TRUE         
+         2  1908 Davidson Democratic Center-Left   William Howard Taft    8309 TRUE            TRUE         
+         3  1912 Davidson Democratic Center-Left   Woodrow Wilson         9517 TRUE            TRUE         
+         4  1916 Davidson Democratic Center-Left   Woodrow Wilson         8958 TRUE            TRUE         
+         5  1920 Davidson Democratic Center-Left   James M. Cox          13354 FALSE           TRUE         
+         6  1924 Davidson Democratic Center-Left   John W. Davis         11363 FALSE           TRUE         
+         7  1928 Davidson Republican Center-Right  Herbert Hoover        15359 TRUE            TRUE         
+         8  1932 Davidson Democratic Center-Left   Franklin D. Roosevelt 21233 TRUE            TRUE         
+         9  1936 Davidson Democratic Center-Left   Franklin D. Roosevelt 25530 TRUE            TRUE         
+        10  1940 Davidson Democratic Center-Left   Franklin D. Roosevelt 27589 TRUE            TRUE   
 
 ## Data sources
 
