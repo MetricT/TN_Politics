@@ -5,7 +5,7 @@ This is a repo for hosting poltical data related to Tennessee politics.
 # Datasets:
 
 * tn_presidential_elections_county_level_1904_to_2016.csv - Presidential election votes since 1904 broken down by county.
-* tn_fed_state_election_data_2008_to_2018.csv - TN Federal/state election votes at the county precinct level from 2008 - 2018
+* tn_fed_state_election_data_2008_to_2018.csv - TN Federal/state election votes at the county precinct level from 2008 - 2018 taken from the TN Election Commission website
 * tn_unknown_party.csv - A list of candidates whose "Independent" or "Write-In" status isn't 100%.   They may be Libertarian, Green, or some other minor party, and need to be verified.
 
 ## Usage:
