@@ -40,7 +40,7 @@ YEAR,OFFICENAME,CANDIDATE,PARTY
 2010,Tennessee House of Representatives District 4,Kent Williams,Independent
 2010,Tennessee House of Representatives District 50,Dave Rosenberg,Independent
 2010,Tennessee House of Representatives District 50,Nina Ground,Independent
-2010,Tennessee House of Representatives District 53,Daniel T Lewis,Independent
+2010,Tennessee House of Representatives District 53,Daniel T. Lewis,Independent
 2010,Tennessee House of Representatives District 57,Luther C. Lenning,Independent
 2010,Tennessee House of Representatives District 59,Chris Polsen,Write-In
 2010,Tennessee House of Representatives District 5,Karen Sherry Brackett,Independent
@@ -89,7 +89,7 @@ YEAR,OFFICENAME,CANDIDATE,PARTY
 2012,Tennessee House of Representatives District 32,Allen R. Cole,Independent
 2012,Tennessee House of Representatives District 36,Virgil Kidwell,Independent
 2012,Tennessee House of Representatives District 4,Kent Williams,Independent
-2012,Tennessee House of Representatives District 52,Daniel Lewis,Independent
+2012,Tennessee House of Representatives District 52,Daniel T. Lewis,Independent
 2012,Tennessee House of Representatives District 54,Louie E. Johnston Jr.,Write-In
 2012,Tennessee House of Representatives District 5,Jason Scott Moore,Write-In
 2012,Tennessee House of Representatives District 67,Mike Warner,Write-In
@@ -104,12 +104,12 @@ YEAR,OFFICENAME,CANDIDATE,PARTY
 2012,United States House of Representatives District 1,Michael D. Salyer,Independent
 2012,United States House of Representatives District 2,Brandon Stewart,Independent
 2012,United States House of Representatives District 2,Greg Samples,Independent
-2012,United States House of Representatives District 3,Lady J Jean Howard-Hill,Write-In
+2012,United States House of Representatives District 3,Jean Howard-Hill,Write-In
 2012,United States House of Representatives District 3,Matthew Deniston,Independent
 2012,United States House of Representatives District 3,Richard Hall,Write-In
 2012,United States House of Representatives District 7,Jack Arnold,Independent
-2012,United States House of Representatives District 7,Leonard D. (Lenny) Ladner,Independent
-2012,United States House of Representatives District 7,Wm Ryan Akin,Independent
+2012,United States House of Representatives District 7,Leonard D. Ladner,Independent
+2012,United States House of Representatives District 7,W. Ryan Akin,Independent
 2012,United States House of Representatives District 8,James Hart,Independent
 2012,United States House of Representatives District 8,Mark J. Rawles,Independent
 2012,United States House of Representatives District 9,Brian L. Saulsberry,Independent
@@ -142,7 +142,7 @@ YEAR,OFFICENAME,CANDIDATE,PARTY
 2014,United States House of Representatives District 8,Dana Matheny,Independent
 2014,United States House of Representatives District 8,James Hart,Independent
 2014,United States House of Representatives District 9,Floyd Wayne Alberson,Independent
-2014,United States House of Representatives District 9,Herbert Bass,Independent
+2014,United States House of Representatives District 9,Herbert A. Bass,Independent
 2014,United States House of Representatives District 9,Paul Cook,Independent
 2014,United States Senate,"Tom Emerson, Jr.",Independent
 2016,Tennessee House of Representatives District 12,John R. Huff Sr.,Independent
@@ -171,7 +171,7 @@ YEAR,OFFICENAME,CANDIDATE,PARTY
 2016,Tennessee Senate District 28,Joey Norman,Independent
 2016,United States House of Representatives District 1,Paul Krane,Independent
 2016,United States House of Representatives District 1,Robert D. Franklin,Independent
-2016,United States House of Representatives District 3,Cassandra Mitchell,Independent
+2016,United States House of Representatives District 3,Cassandra J Mitchell,Independent
 2016,United States House of Representatives District 3,Topher Kersting,Independent
 2016,United States House of Representatives District 7,Leonard D. Ladner,Independent
 2016,United States House of Representatives District 8,Adrian M. Montague,Independent
@@ -200,7 +200,7 @@ YEAR,OFFICENAME,CANDIDATE,PARTY
 2018,Tennessee Senate District 13,Ginger Smith,Independent
 2018,Tennessee Senate District 19,"Christina ""Chris"" Callaway",Independent
 2018,Tennessee Senate District 19,Howard Jones,Independent
-2018,Tennessee Senate District 19,Rueben Dockery,Independent
+2018,Tennessee Senate District 19,Rueben (Dock) Dockery,Independent
 2018,Tennessee Senate District 27,"John H. York, Jr.",Independent
 2018,Tennessee Senate District 2 (unexpired term),J. Nathan Higdon,Independent
 2018,United States House of Representatives District 1,Michael D. Salyer,Independent
@@ -211,6 +211,6 @@ YEAR,OFFICENAME,CANDIDATE,PARTY
 2018,United States House of Representatives District 4,Michael Shupe,Independent
 2018,United States House of Representatives District 4,Russell Wayne Steele,Independent
 2018,United States House of Representatives District 7,Brent Legendre,Independent
-2018,United States House of Representatives District 7,Leonard D. (Lenny) Ladner,Independent
+2018,United States House of Representatives District 7,Leonard D. Ladner,Independent
 2018,United States House of Representatives District 8,James Hart,Independent
 2018,United States House of Representatives District 9,Leo AwGoWhat,Independent
